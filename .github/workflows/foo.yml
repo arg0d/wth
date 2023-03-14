@@ -1,0 +1,10 @@
+name: foo
+on: pull_request
+
+jobs:
+  bar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: baz
+        run: |
+          echo $SEKRIT
